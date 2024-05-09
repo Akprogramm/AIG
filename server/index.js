@@ -13,7 +13,7 @@ app.use(bodyParser.json({ limit: '50mb' }));
 dotenv.config();    
 
 app.use(cors({
-    origin: '' 
+    origin: 'https://aig-3.onrender.com/' 
 }));
 
 app.use(express.json({limit: '50mb'}));            
